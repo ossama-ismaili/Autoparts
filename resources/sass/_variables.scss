@@ -1,0 +1,71 @@
+// Body
+$body-bg: #fff;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$ruby: #ff2d37;
+$lightruby: #e33;
+$darkruby: #c11;
+
+// Animations
+@keyframes slideIn {
+    0% {
+      transform: translateX(500px) scale(.2);
+    }
+    100% {
+      transform: translateX(0px) scale(1);
+    }
+  }
+
+@keyframes slideUp {
+    0% {
+    transform: translateY(300px);
+    }
+    100% {
+    transform: translateY(0px);
+    }
+}
+
+@keyframes slideDown {
+    0% {
+    transform: translateY(-500px);
+    }
+    100% {
+    transform: translateY(0px);
+    }
+}
+
+@keyframes expand {
+    0% {
+    transform: translateX(1400px);
+    }
+    100% {
+    transform: translateX(0px);
+    }
+}
+
+@keyframes bright {
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+
+$sectionAnimation: expand .9s ease forwards;
+
